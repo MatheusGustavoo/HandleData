@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  /* background-color: aqua; */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+div {
+  width: 100%;
+  margin: 20px 20px 20px 20px;
+}
+
+nav.red {
+  background-color: aquamarine;
+}
+nav.blue {
+  background-color: rgb(157, 32, 74);
+}
