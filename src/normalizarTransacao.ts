@@ -40,7 +40,6 @@ export default function normalizarTransacao(transacao: TransacaoAPI) {
 /**
  * Recebe string "1.200,50" retorna number
  */
-
 function data(texto: string): Date {
   const [data, tempo] = texto.split(" ")
   const[dia, mes, ano ] = data.split("/").map(Number)
