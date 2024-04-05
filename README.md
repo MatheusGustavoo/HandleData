@@ -15,36 +15,32 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados 
 
 - Node.js e npm
 
-
-
 ### Instalação e uso
 
 Siga estas etapas para instalar e executar a aplicação:
 
 1. Clone este repositório:
 
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   ```
-
-2. Navegue até o diretório
-
 ```bash
-   cd Projeto
+git clone https://github.com/MatheusGustavoo/HandleData.git .
 ```
-3.Instale as depêndencias
+
+2. Instale as depêndencias
 
 ```bash
    npm install
 ```
 
-4.Execute o projeto
+3. Execute o projeto
 
 ```bash
    npm start
 ```
+
 ## Estrutura do projeto
+
 A estrura base do projeto é a seguinte:
+
 ```lua
 |-- src
 |   |-- api
@@ -57,6 +53,8 @@ A estrura base do projeto é a seguinte:
 |-- package.json                # Arquivo de configuração do Node.js
 |-- tsconfig.json               # Arquivo de configuração do TypeScript
 ```
+
 #### Contato
+
 Caso precise de ajuda ou sugestões, me envie um email!
 matheus.pedra24@usp.br
