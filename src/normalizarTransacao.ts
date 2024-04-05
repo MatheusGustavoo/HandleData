@@ -12,7 +12,7 @@ declare global {
     ID: number;
     Email: string;
   }
-}
+
 
 interface Transacao {
   nome: string;
@@ -23,8 +23,8 @@ interface Transacao {
   valor: number | null;
   novo: boolean;
   pagamento: "Boleto" | "Cartão de Crédito";
-}
-export default function normalizarTransacao(transacao: TransacaoAPI) {
+}}
+export default function normalizarTransacao(transacao: TransacaoAPI): Transacao {
   return {
     nome: transacao.Nome,
     data: data(transacao.Data),

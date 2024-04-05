@@ -1,23 +1,31 @@
-body {
-  background-color: rgb(255, 255, 255);
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
 }
-
-nav {
-  /* background-color: aqua; */
-  display: flex;
+table {
+  border-spacing: 0;
+  text-align: left;
   width: 100%;
-  justify-content: space-between;
-  align-items: flex-start;
+}
+table td,
+table th {
+  padding: 0.5rem 1rem;
 }
 
-div {
-  width: 100%;
-  margin: 20px 20px 20px 20px;
+table tr:nth-child(even) {
+  background-color: rgb(177, 177, 244);
 }
 
-nav.red {
-  background-color: aquamarine;
+h2,
+p {
+  margin-left: 1rem;
 }
-nav.blue {
-  background-color: rgb(157, 32, 74);
+
+h2 {
+  border-top: 6px solid ghostwhite;
+  padding-top: 1rem;
+}
+
+.credito {
+  border-top: 3px solid ghostwhite;
 }
