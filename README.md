@@ -17,6 +17,7 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados 
 
 ### Instalação e uso
 
+O Projeto possui a depêndencia do "Vite", uma ferramenta de automação Front End. Com ela podemos gerar bundles, iniciar um live server, otimizar o código para produção e mais.
 Siga estas etapas para instalar e executar a aplicação:
 
 1. Clone este repositório:
@@ -34,7 +35,7 @@ git clone https://github.com/MatheusGustavoo/HandleData.git .
 3. Execute o projeto
 
 ```bash
-   npm start
+   npm run dev
 ```
 
 ## Estrutura do projeto
