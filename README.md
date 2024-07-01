@@ -44,15 +44,14 @@ A estrura base do projeto é a seguinte:
 
 ```lua
 |-- src
-|   |-- api
-|   |   |-- dataService.ts      # Módulo para lidar com a comunicação com a API
-|   |-- models
-|   |   |-- BankData.ts         # Definição de modelos de dados
-|   |-- utils
-|   |   |-- logger.ts           # Utilitário para logs
-|   |-- index.ts                # Arquivo principal da aplicação
+|   |-- Estatisticas.ts         # Tratamento dos dados
+|   |-- FetchData.ts            # Fetch API
+|   |-- NormalizarTransacao.ts  # Tratamento do dados especificos
+|   |-- PreencherTabela.ts      # Arquivo TS principal
 |-- package.json                # Arquivo de configuração do Node.js
 |-- tsconfig.json               # Arquivo de configuração do TypeScript
+|-- index.html               # Conteudo da página
+|-- index.html               # Estilização da página
 ```
 
 #### Contato
